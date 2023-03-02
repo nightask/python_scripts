@@ -1,0 +1,8 @@
+时间：2020-08-01 20:53:49,644|| 文件名：create_logfile.py||行号：45||级别：DEBUG||内容：这是一条debug级别的日志信息
+时间：2020-08-01 20:53:49,652|| 文件名：create_logfile.py||行号：46||级别：INFO||内容：这是一条info级别的日志信息
+时间：2020-08-01 20:53:49,653|| 文件名：create_logfile.py||行号：47||级别：WARNING||内容：这是一条warning级别的日志信息
+时间：2020-08-01 20:53:49,653|| 文件名：create_logfile.py||行号：52||级别：ERROR||内容：出现错误，错误信息是[Errno 2] No such file or directory: '不存在.jpg'
+Traceback (most recent call last):
+  File "C:/User/hp/DeskTop/publish2/python_program/生成日志文件/create_logfile.py", line 49, in <module>
+    open('不存在.jpg','rb')
+FileNotFoundError: [Errno 2] No such file or directory: '不存在.jpg'

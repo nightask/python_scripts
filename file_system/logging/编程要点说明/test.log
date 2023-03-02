@@ -1,0 +1,9 @@
+时间：2020-08-01 19:24:52|| 文件名：pre_logging.py||行号：14||级别：INFO||内容：这是一条info级别的日志信息
+时间：2020-08-01 19:24:52|| 文件名：pre_logging.py||行号：15||级别：WARNING||内容：这是一条warning级别的日志信息
+时间：2020-08-01 19:24:52|| 文件名：pre_logging.py||行号：16||级别：ERROR||内容：这是一条error级别的日志信息
+时间：2020-08-01 19:24:52|| 文件名：pre_logging.py||行号：17||级别：CRITICAL||内容：这是一条critica级别的日志信息
+时间：2020-08-01 19:24:52|| 文件名：pre_logging.py||行号：22||级别：ERROR||内容：出现错误，错误信息是division by zero
+Traceback (most recent call last):
+  File "C:/User/hp/DeskTop/publish2/python_program/生成日志文件/pre_logging.py", line 19, in <module>
+    print('这是一个错误的语句',66/0)
+ZeroDivisionError: division by zero
